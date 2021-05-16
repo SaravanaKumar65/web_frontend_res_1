@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    scroll-behavior: smooth;
+   
+  
+}
+
+/******************* Navbar ************************/
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+.bold{
+    font-size: 35px;
+    font-weight: 600;
+}
+li{
+    padding: 20px;
+     font-weight: 600;
+     
+}
+#menu .nav-link{
+    color: black;
+    font-size: 18px;
+
+ 
+    border: 2px solid transparent;
+}
+
+#menu .nav-link:hover{
+    border-bottom: 2px solid rgb(255, 166, 0);
+    transition: .1s;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* <!-- *******************HOME*********************************** --> */
+#home p{
+    text-align: justify;
+}
+
+
+
+
+
+/* <!-- *******************ABOUT*********************************** --> */
+
+#about .image1{
+    height: 500px;
+    width: 400px;
+    border-radius: 50px;
+  
+  
+}
+#about p{
+    text-align: justify;
+}
+#about .para{
+   margin-top: 100px;
+  
+}
+
+/* <!-- *******************Services*********************************** --> */
+.card img{
+    height: 250px;
+    transition: 1s;
+    width: 100%;
+}
+
+.inner{
+    overflow: hidden;
+
+}
+
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+
+}
+
+/* <!-- *******************Contact*********************************** --> */
+
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.2),
+                -1px -1px 5px rgba(0,0,0, 0.05);
+    border-radius: 30px;
+}
